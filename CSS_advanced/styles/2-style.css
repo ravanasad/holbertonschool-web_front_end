@@ -1,7 +1,8 @@
 html {
   scroll-behavior: smooth;
 }
-body {
+body,
+a {
   color: #161616;
 }
 .visually-hidden {
