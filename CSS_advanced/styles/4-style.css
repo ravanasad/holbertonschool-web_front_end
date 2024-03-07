@@ -8,20 +8,26 @@
 
     --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-text: var(--font-family-base);
-
-
 }
 
 html {
   scroll-behavior: smooth;
 }
+
 body,
 a {
   color: var(--text-color);
+  font-family: var(--font-family-base);
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-text);
+}
+
 .visually-hidden {
   display: none;
 }
+
 .card-category,
 .section-tagline {
   color: var(--color-primary);
